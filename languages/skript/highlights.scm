@@ -49,9 +49,9 @@
 (loop_statement "loop" @keyword.control)
 (while_statement "while" @keyword.control)
 (return_statement "return" @keyword.control)
-(stop_statement "stop" @keyword.control)
+(stop_statement) @keyword.control
 (exit_statement "exit" @keyword.control)
-(continue_statement "continue" @keyword.control)
+(continue_statement) @keyword.control
 
 ; ---------------------------------------------------------------------------
 ; Effect keywords
@@ -96,7 +96,6 @@
   "at"
   "for"
   "of"
-  "in"
   "due to"
   "console"
   "player"
