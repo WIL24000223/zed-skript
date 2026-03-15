@@ -20,7 +20,9 @@
   "tree-sitter": [
     {
       "scope": "source.skript",
-      "file-types": ["sk"],
+      "file-types": [
+        "sk"
+      ],
       "injection-regex": "skript"
     }
   ],
@@ -28,4 +30,3 @@
     "tree-sitter-cli": "^0.26.7"
   }
 }
-
