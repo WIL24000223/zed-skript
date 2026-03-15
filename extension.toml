@@ -9,15 +9,3 @@ repository = "https://github.com/WIL24000223/zed-skript"
 [grammars.skript]
 repository = "https://github.com/WIL24000223/zed-skript"
 commit = "a311d1190f4061432c8a0b28d3a92c9dd5c9660e"
-
-[languages.skript]
-name = "Skript"
-grammar = "skript"
-path_suffixes = ["sk"]
-line_comments = ["# "]
-brackets = [
-    { start = "{", end = "}", close = true, newline = false },
-    { start = "(", end = ")", close = true, newline = false },
-    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
-]
-tab_size = 4
