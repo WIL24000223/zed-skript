@@ -1,0 +1,31 @@
+{
+  "name": "tree-sitter-skript",
+  "version": "0.1.0",
+  "description": "Skript grammar for tree-sitter",
+  "main": "grammar.js",
+  "keywords": [
+    "tree-sitter",
+    "skript",
+    "minecraft",
+    "bukkit",
+    "spigot",
+    "parser",
+    "grammar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WIL24000223/zed-skript"
+  },
+  "license": "MIT",
+  "tree-sitter": [
+    {
+      "scope": "source.skript",
+      "file-types": ["sk"],
+      "injection-regex": "skript"
+    }
+  ],
+  "devDependencies": {
+    "tree-sitter-cli": "^0.26.7"
+  }
+}
+

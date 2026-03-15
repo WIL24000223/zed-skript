@@ -1,0 +1,10 @@
+name = "Skript"
+grammar = "skript"
+path_suffixes = ["sk"]
+line_comments = ["# "]
+brackets = [
+    { start = "{", end = "}", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+]
+tab_size = 4
