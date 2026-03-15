@@ -6,7 +6,8 @@
       "scope": "source.skript",
       "file-types": ["sk"],
       "injection-regex": "skript",
-      "root": "."
+      "root": ".",
+      "highlights": ["languages/skript/highlights.scm"]
     }
   ],
   "metadata": {
