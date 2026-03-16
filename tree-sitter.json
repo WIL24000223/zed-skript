@@ -1,0 +1,26 @@
+{
+  "grammars": [
+    {
+      "name": "skript",
+      "camelcase": "Skript",
+      "scope": "source.skript",
+      "file-types": ["sk"],
+      "injection-regex": "skript",
+      "root": ".",
+      "highlights": ["languages/skript/highlights.scm"]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Skript grammar for tree-sitter",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "WIL24000223"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/WIL24000223/zed-skript"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+id = "skript"
+name = "Skript"
+description = "Skript syntax highlighting for Zed editor"
+version = "0.1.0"
+schema_version = 1
+authors = ["WIL24000223"]
+repository = "https://github.com/WIL24000223/zed-skript"
+
+[grammars.skript]
+repository = "https://github.com/WIL24000223/zed-skript"
+commit = "462981e1af1973771e8b6e9afe2f0b645c9e9664"
